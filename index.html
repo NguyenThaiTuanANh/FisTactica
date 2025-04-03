@@ -19,11 +19,11 @@
             </div>
         </div>
         <div id="unity-warning"> </div>
-        <div id="unity-footer">
-            <div id="unity-webgl-logo"></div>
-            <div id="unity-fullscreen-button"></div>
-            <div id="unity-build-title">IdaFightSoma</div>
-        </div>
+        <!-- <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">IdaFightSoma</div>
+      </div> -->
     </div>
     <script>
         var container = document.querySelector("#unity-container");
@@ -58,11 +58,11 @@
         }
 
         var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/TestTouch.loader.js";
+        var loaderUrl = buildUrl + "/Test.loader.js";
         var config = {
-            dataUrl: buildUrl + "/TestTouch.data.unityweb",
-            frameworkUrl: buildUrl + "/TestTouch.framework.js.unityweb",
-            codeUrl: buildUrl + "/TestTouch.wasm.unityweb",
+            dataUrl: buildUrl + "/Test.data.unityweb",
+            frameworkUrl: buildUrl + "/Test.framework.js.unityweb",
+            codeUrl: buildUrl + "/Test.wasm.unityweb",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "IdaFightSoma",
